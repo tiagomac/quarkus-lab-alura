@@ -1,58 +1,28 @@
-# bitcoin project
+# Welcome to quarkus-lab-alura 👋
+![Version](https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000)
+[![Twitter: mesquitassa](https://img.shields.io/twitter/follow/mesquitassa.svg?style=social)](https://twitter.com/mesquitassa)
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+> Execução do curso de Quarkus da Alura
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+## Install
 
-## Running the application in dev mode
-
-You can run your application in dev mode that enables live coding using:
-```shell script
-./mvnw compile quarkus:dev
+```sh
+mvn quarkus:dev
 ```
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
+## Author
 
-## Packaging and running the application
+👤 **Tiago Mesquita**
 
-The application can be packaged using:
-```shell script
-./mvnw package
-```
-It produces the `quarkus-run.jar` file in the `target/quarkus-app/` directory.
-Be aware that it’s not an _über-jar_ as the dependencies are copied into the `target/quarkus-app/lib/` directory.
+* Website: tiago.bluish.cloud
+* Twitter: [@mesquitassa](https://twitter.com/mesquitassa)
+* Github: [@tiagomac](https://github.com/tiagomac)
+* LinkedIn: [@devmesquita](https://linkedin.com/in/devmesquita)
 
-If you want to build an _über-jar_, execute the following command:
-```shell script
-./mvnw package -Dquarkus.package.type=uber-jar
-```
+## Show your support
 
-The application is now runnable using `java -jar target/quarkus-app/quarkus-run.jar`.
+Give a ⭐️ if this project helped you!
 
-## Creating a native executable
 
-You can create a native executable using: 
-```shell script
-./mvnw package -Pnative
-```
-
-Or, if you don't have GraalVM installed, you can run the native executable build in a container using: 
-```shell script
-./mvnw package -Pnative -Dquarkus.native.container-build=true
-```
-
-You can then execute your native executable with: `./target/bitcoin-1.0.0-SNAPSHOT-runner`
-
-If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.html.
-
-## Related guides
-
-- RESTEasy JAX-RS ([guide](https://quarkus.io/guides/rest-json)): REST endpoint framework implementing JAX-RS and more
-
-## Provided examples
-
-### RESTEasy JAX-RS example
-
-REST is easy peasy with this Hello World RESTEasy resource.
-
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
